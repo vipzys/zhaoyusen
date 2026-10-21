@@ -1,0 +1,7 @@
+node_modules
+dist
+_assets
+_screens
+*.local
+.DS_Store
+Thumbs.db
