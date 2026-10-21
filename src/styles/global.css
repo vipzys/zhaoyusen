@@ -5456,21 +5456,19 @@ body.archive-open {
   transform: rotate(45deg);
 }
 
-.contact__mail-wechat {
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
-  margin-top: 12px;
-  font-family: var(--sans);
-  font-size: clamp(21px, 2.15vw, 35px);
-  line-height: 1.2;
-  letter-spacing: -0.045em;
-  color: var(--muted);
+.contact__mail--wechat {
+  margin-top: 14px;
+  cursor: default;
 }
 
-.contact__mail-wechat strong {
-  font-weight: 400;
-  color: var(--ink-soft);
+.contact__mail--wechat:hover > span {
+  transform: none;
+}
+
+.contact__wechat-badge {
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.04em;
 }
 
 .contact__secondary {
@@ -5478,6 +5476,12 @@ body.archive-open {
   align-items: flex-end;
   justify-content: space-between;
   gap: 28px;
+}
+
+.contact__copy-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .contact__copy {
@@ -6480,10 +6484,6 @@ body.archive-open {
   }
 
   .contact__mail {
-    font-size: 20px;
-  }
-
-  .contact__mail-wechat {
     font-size: 20px;
   }
 

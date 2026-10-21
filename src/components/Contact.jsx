@@ -58,18 +58,30 @@ export default function Contact() {
                   <ArrowUpRight size={26} />
                 </span>
               </a>
-              <span className="contact__mail-wechat">
-                微信 <strong>{site.wechat}</strong>
-              </span>
+
+              <div className="contact__mail contact__mail--wechat">
+                {site.wechat}
+                <span className="contact__wechat-badge" aria-hidden="true">
+                  WX
+                </span>
+              </div>
             </div>
 
             <div className="contact__secondary">
-              <CopyButton
-                value={site.email}
-                className="contact__copy"
-                defaultLabel="复制邮箱"
-                copiedLabel="邮箱已复制"
-              />
+              <div className="contact__copy-group">
+                <CopyButton
+                  value={site.email}
+                  className="contact__copy"
+                  defaultLabel="复制邮箱"
+                  copiedLabel="邮箱已复制"
+                />
+                <CopyButton
+                  value={site.wechat}
+                  className="contact__copy"
+                  defaultLabel="复制微信"
+                  copiedLabel="微信已复制"
+                />
+              </div>
             </div>
           </Reveal>
         </div>
