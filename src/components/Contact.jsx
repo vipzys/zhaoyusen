@@ -59,7 +59,7 @@ export default function Contact() {
                 </span>
               </a>
 
-              <div className="contact__mail contact__mail--wechat">
+              <div className="contact__mail contact__mail--wechat" {...magnetic}>
                 {site.wechat}
                 <span className="contact__wechat-badge" aria-hidden="true">
                   WX
