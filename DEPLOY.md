@@ -1,5 +1,7 @@
 # 部署：GitHub + Cloudflare Pages
 
+当前仓库：[vipzys/zhaoyusen](https://github.com/vipzys/zhaoyusen)
+
 站点是纯静态页面，视频不存放在站内。
 
 - 构建产物约 **7–8MB**（主要是 Hero 视频和图片）
