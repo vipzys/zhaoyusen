@@ -55,8 +55,8 @@ export const stats = [
 export const experience = [
   {
     period: '2026.07 — 2026.10',
-    title: '湖南秦九网络科技 · 后期剪辑',
-    detail: 'AI 真人短剧 / 一卡主剪',
+    title: '湖南秦九网络科技 · AIGC 剪辑',
+    detail: 'AI 真人短剧 / AIGC 剪辑',
     note: '负责开篇剧情节奏与后续剪辑风格对齐，单月交付 25+ 部；把控画面跳跃、穿帮、撕裂等成片问题。',
   },
   {
