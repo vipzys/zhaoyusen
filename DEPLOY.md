@@ -86,8 +86,8 @@ pnpm build
 
 - [public/_redirects](public/_redirects)：SPA 回退到 `index.html`
 - 作品集入口打开后展示百度网盘按钮
-- 链接：`https://pan.baidu.com/s/1dI8dZjWDdl4iGtHvQSXxbQ?pwd=1234`
-- 提取码：`1234`
+- 链接：`https://pan.baidu.com/s/1cWebWjbmQmvJKiXnuSYK1w?pwd=a21p`
+- 提取码：`a21p`
 - 链接使用 `target="_blank"`，一键打开百度网盘
 
 ## 上线检查

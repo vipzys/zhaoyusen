@@ -7,8 +7,8 @@ export const site = {
   wechat: 'zyssy2',
   city: '郑州',
   archive: {
-    url: 'https://pan.baidu.com/s/1dI8dZjWDdl4iGtHvQSXxbQ?pwd=1234',
-    code: '1234',
+    url: 'https://pan.baidu.com/s/1cWebWjbmQmvJKiXnuSYK1w?pwd=a21p',
+    code: 'a21p',
     series: 9,
     clips: 52,
   },
